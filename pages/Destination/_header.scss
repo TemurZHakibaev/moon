@@ -1,0 +1,28 @@
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 76px;
+
+  .header-nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    // padding: 39px 167px 39px 123px;
+    width: 830px;
+    height: 96px;
+
+
+    .header-nav-li span{
+      margin-right: $text-h4-margin-left;
+      font-weight: 700;
+    }
+
+    .header-nav-li a{
+      margin-right: $text-h4-margin-right;
+    }
+  }
+}

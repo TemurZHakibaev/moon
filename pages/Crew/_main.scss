@@ -1,0 +1,22 @@
+.container{
+  h4{
+    font-family: $font-family-Barlow-Condensed;
+    font-weight: $font-weight-regular;
+    font-size: $home-h4-size;
+    line-height: $text-line-height-34;
+    letter-spacing: 4.725px;
+    color: $gray-color;
+    margin-bottom: 64px;
+    margin-left: 28px;
+  }
+
+  span{
+    font-family: $font-family-Barlow-Condensed;
+    font-weight: $font-weight-bold;
+    font-size: $home-h4-size;
+    line-height: $text-line-height-34;
+    letter-spacing: 4.725px;
+    color: $white-color;
+    opacity: 0.25;
+  }
+}

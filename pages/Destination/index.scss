@@ -1,0 +1,10 @@
+@import '../../assets/styles/block';
+@import '../Destination/header';
+@import '../Destination/main';
+
+body{
+  background-image: url(/assets/images/galaxy.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

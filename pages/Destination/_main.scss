@@ -1,0 +1,88 @@
+h4{
+  font-family: $font-family-Barlow-Condensed;
+  font-weight: $font-weight-regular;
+  font-size: $home-h4-size;
+  line-height: $text-line-height-34;
+  letter-spacing: 4.725px;
+  color: $gray-color;
+  margin-bottom: 64px;
+  margin-left: 28px;
+}
+
+span{
+  font-family: $font-family-Barlow-Condensed;
+  font-weight: $font-weight-bold;
+  font-size: $home-h4-size;
+  line-height: $text-line-height-34;
+  letter-spacing: 4.725px;
+  color: $white-color;
+  opacity: 0.25;
+}
+
+.planet{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .planer__text{
+    width: 50%;
+    ul{
+      display: flex;
+      gap: 35px;
+      margin-bottom: 55px;
+    }
+    h2{
+      font-size: $text-font-size-100;
+      font-weight: $font-weight-regular;
+      font-family: $font-family-Bellefair;
+      margin-bottom: 25px;
+      color: $white-color;
+    }
+
+    .span{
+      border-bottom: 1px solid #383B4B;
+      width: 411px;
+      padding-bottom: 54px;
+      margin-bottom: 28px;
+
+      p{
+        font-family: $font-family-Barlow;
+        color: $gray-color;
+        line-height: $text-font-size-32;
+        font-size: $text-subTitle;
+        font-weight: $font-weight-regular;
+
+      }
+      span1{
+        display: block;
+        font-family:$font-family-Barlow;
+        font-weight: $font-weight-regular;
+        font-size: $text-subTitle;
+        line-height: $text-font-size-32;
+        color: $gray-color;
+      }
+    }
+    .planet__text{
+      display: flex;
+      gap: 79px;
+      h5{
+        font-family: 'Barlow Condensed';
+        font-weight: $font-weight-regular;
+        font-size: $font-sixe-14;
+        line-height: $text-line-heigh-17;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase;
+        color: $gray-color;
+      }
+      h3{
+        font-family: $font-family-Bellefair;
+        font-weight: 4$font-weight-regular;
+        font-size: $home-h4-size;
+        line-height: $text-font-size-32;
+        text-transform: uppercase;
+        color: $white-color;
+        margin-top: $h3-margin-top;
+      }
+    }
+  }
+}

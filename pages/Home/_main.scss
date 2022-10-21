@@ -1,0 +1,65 @@
+.travel{
+  width: 100%;
+  display: flex;
+
+  .container{
+    display: flex;
+    align-items: center;
+  }
+
+
+    .travel__text{
+      width: 50%;
+  
+      h4{
+        font-family: $font-family-Barlow-Condensed;
+        font-weight: $font-weight-regular;
+        font-size: $home-h4-size;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        color: $gray-color;
+      }
+  
+      h1{
+        font-family: $font-family-Barlow-Condensed;
+        font-size: $home-h1-size;
+        color: $white-color;
+        margin: 0;
+        margin-top: $home-h1-margin--top-bottom;
+      }
+      .span{
+        span{
+          font-family: $font-family-Barlow;
+          display: block;
+        }
+        p{
+          font-family: $font-family-Barlow;
+          font-size: $text-subTitle;
+          color: $gray-color;
+          line-height: 32px;
+        }
+      }
+    }
+  
+    .travel__right{
+      width: 50%;
+      .travel--button{ 
+        display: flex;
+        justify-content: end;
+      
+      p{
+        font-family: $font-family-Barlow-Condensed;
+        font-size: $text-font-size-32;
+        line-height: $text-line-height-37;
+        border-radius: 50%;
+        color: #0B0D17;
+        width: 274px;
+        height: 274px;
+        background-color: $white-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
